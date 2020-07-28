@@ -50,9 +50,10 @@ function generatePassword() {
         confirmCharacter = confirm("Will this contain special characters?");
         confirmUppercase = confirm("Will this contain Uppercase letters?");
         confirmLowercase = confirm("Will this contain Lowercase letters?");
-    };
+    }
 
     // Else if for 4 negative options
+
     if (!confirmCharacter && !confirmNumber && !confirmUppercase && !confirmLowercase) {
         choices = alert("You must choose a criteria!");
 
@@ -108,7 +109,7 @@ function generatePassword() {
     // Created space variable to fill uppercase conversion
     else if (confirmUppercase) {
         choices = space.concat(alpha2);
-    };
+    }
 
     // password variable is an array placeholder for user generated amount of length
     var password = [];
