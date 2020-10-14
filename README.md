@@ -60,16 +60,20 @@ max-width: 640px
 Adjusts body and container width
 Adjusts buttons to be centered and stacked
 
-To Execute File:
+# To Execute File:
 Open in browser
 
-Features:
-One HTML Pages
+# Features:
+# One HTML Page
 Index.html
 Contains basic user input items and buttons with divs and ids
-
-One CSS Page
+# One CSS Page*
 Styles.css
 Contains centering and styling for html user input features
-Contains media queries
-One Javascript Page * Contains: * Variables, including arrays and value placeholders * Two event listeners * Two if/else if statements * One function outside of first event listener
+# media queries
+# One Javascript Page
+ * Contains:
+ *  * Variables, including arrays and value placeholders 
+ *  * Two event listeners * Two if/else if statements * One function outside of first event listener
+
+# ![demo](passgenerator.gif)
